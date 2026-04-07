@@ -89,7 +89,7 @@ def filter_and_dedupe(rows: list[dict], min_rating: float, min_reviews: int) -> 
 
 
 # ====== UI ======
-st.set_page_config(page_title="LeadFinder — No-Website Business Leads", page_icon="🎯", layout="wide")
+st.set_page_config(page_title="No Website Tracker — No-Website Business Leads", page_icon="🎯", layout="wide")
 
 st.title("🎯 LeadFinder")
 st.caption("Find highly-rated local businesses that don't have a website. Perfect for web designers, SEO agencies, and freelancers.")
